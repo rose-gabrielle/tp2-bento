@@ -1,2 +1,10 @@
-.DS_store
+# NE pas uploader les fichiers de conception! 
+############################################## 
+*.sketch
+*.fig
+*.xd
+design/ 
+
+# Autres fichiers à ignorer
+.DS_Store
 .vscode/
