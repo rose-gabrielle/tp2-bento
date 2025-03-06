@@ -115,6 +115,7 @@ h1 {
         display: grid;
         grid-template-columns: repeat(4, 300px);
         grid-template-rows: repeat(3, 300px);
+        gap: 20px;
     
     }  
     main{
@@ -125,6 +126,7 @@ h1 {
   
 .item1 {
      grid-area: 1 / 2 / 2 / 4;
+     background-color: #7551db;
      
      }
 .item2 { 
@@ -133,35 +135,24 @@ h1 {
 }
 .item3 {
      grid-area: 2 / 3 / 3 / 4; 
-     
+     background-color:#fecc6a ;
     }
 .item4 {
      grid-area: 1 / 4 / 3 / 5; 
-     
+     background-color: rgb(221, 209, 252)
     }
 .item5 { 
     grid-area: 3 / 3 / 4 / 5; 
-    
+    background-color: #7551db;
 }
 .item6 { 
     grid-area: 3 / 2 / 4 / 3; 
-    
+     
 }
-.img1{
-max-width: 80%;
- }
-.img2{
-max-width: 80%;
- }
-.img3{
-max-width: 80%;
- }
- .img4{
-max-width: 80%;
- }
-.img5{
-max-width: 80%;
- }
+.item8{
+    background-color: #fecc6a;
+}
+
 .flexbox {
 grid-column: 1/2;
 grid-row: 1/4;
